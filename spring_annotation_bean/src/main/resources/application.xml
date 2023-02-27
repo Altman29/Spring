@@ -13,5 +13,6 @@
     <!--<bean id="bookDao" class="csy.example.dao.impl.BookDaoImpl"/>-->
 
     <context:component-scan base-package="csy.example.dao"/>
+    <context:component-scan base-package="csy.example.service"/>
 
 </beans>
